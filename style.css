@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "vintage";
+  src: url("./assets/VintageEdge.ttf");
+}
+
+body {
+  background-color: #646464;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  text-align: center;
+}
+
+.herologo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+#logoText {
+  font-family: vintage;
+  font-size: 0.7em;
+  line-height: 75px;
+}
+
+.nav-item {
+  color: white;
+}
+
+.hero {
+  background-image: url(./assets/frontrange.jpg);
+  width: 100vw;
+
+  background-position-y: 80%;
+  background-position-x: 50%;
+  overflow: hidden;
+  margin-top: 4.8rem;
+}
+
+.menu {
+  max-width: 95vw;
+  margin-bottom: 2rem;
+}
+
+.socialLinks {
+  background-color: #dd8b5c;
+  width: 100vw;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.fab {
+  font-size: 2rem;
+  padding: 0rem 1rem;
+}
+
+h1 {
+  font-family: vintage;
+  font-size: 1.2rem;
+}
+
+.comingSoon {
+  max-width: 80%;
+  margin: auto;
+}
+
+.centerThis {
+  display: grid;
+  place-content: center;
+  gap: 1ch;
+}
+
+#map {
+  height: 100%;
+}
+
+footer {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  text-align: center;
+}
